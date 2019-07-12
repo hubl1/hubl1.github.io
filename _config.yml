@@ -41,7 +41,7 @@ title: 红楼梦诗词
 # keywords: 'connor, baer, bear, designer, developer, design, code, jekyll, spring'
 # description: 'A one-page, two-column Jekyll theme that pairs beautifully styled content with contextual media.'
 # url: https://connor-baer.github.io
-baseurl: '/dotrc'
+baseurl: ''
 assets: '/assets'
 images: '/images'
 logo: /ass/ets/apple-icon-144x144.png
