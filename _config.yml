@@ -58,8 +58,10 @@ author:
   url: 
   email: 
   twitter: 
+  youtube: Stevmo Schwiney
 
 social:
+  youtube: Stevmo Schwiney
   twitter:
   instagram: 
   github: 
@@ -67,8 +69,8 @@ social:
 
 version: 4.0.0
 
-github:
-  repo: https://github.com/connor-baer/spring
+# github:
+#   repo: https://github.com/connor-baer/spring
 
 # Integrations
 # typekit:              fcv7rfe
