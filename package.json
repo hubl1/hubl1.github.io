@@ -10,11 +10,8 @@
     "lint": "foundry run eslint --fix \"_js/**/*.js\""
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/connor-baer/spring.git"
   },
   "keywords": [
-    "connor",
     "bär",
     "designer",
     "traveller",
@@ -23,12 +20,9 @@
     "developer",
     "spring"
   ],
-  "author": "Connor Bär",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/connor-baer/spring/issues"
   },
-  "homepage": "https://connor-baer.github.io/spring/",
   "dependencies": {
     "normalize.css": "^6.0.0",
     "open-color": "^1.4.0",
