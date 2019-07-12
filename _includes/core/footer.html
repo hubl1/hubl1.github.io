@@ -2,13 +2,16 @@
 	<div class="ctnr-wide">
 		<div class="footer-navigation">
 			<div class="footer-links">
-				<h4 class="footer-title">Stevmo Schwiney</h4>
+				<!-- <h4 class="footer-title">Stevmo Schwiney</h4> -->
 				<nav>
 					<ul class="nav">
 						{% assign entries = site.pages | where: "lang", page.lang | sort: "order" %}
 						{% for entry in entries %}
 							{% unless entry.exclude == true %}
-								<li class="footer-link">
+						<li class="footer-link">
+							<a href="https://www.youtube.com/channel/UChHLY6oTT7NXry9sDjdw2rA" target="_blank" rel="noopener noreferrer">Summer</a>
+						</li>
+								<li class="">
 									<a class="{% if page.url == entry.url %} nav-active{% endif %}" href="{{ site.baseurl }}{{ entry.url }}" aria-label="{{ entry.title }}">{{ entry.title }}</a>
 								</li>
 							{% endunless %}
@@ -23,7 +26,7 @@
 				</nav>
 			</div>
 			<div class="footer-links">
-				<h4 class="footer-title">More Themes</h4>
+				<!-- <h4 class="footer-title">More Themes</h4> -->
 				<nav>
 					<ul class="nav">
 						<li class="footer-link">
