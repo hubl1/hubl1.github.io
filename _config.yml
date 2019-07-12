@@ -45,10 +45,10 @@ baseurl: '/dotrc'
 assets: '/assets'
 images: '/images'
 logo: /ass/ets/apple-icon-144x144.png
-twitter:
-  username: 
-facebook:
-  app_id: 
+# twitter:
+#   username: 
+# facebook:
+#   app_id: 
 
 # google_analytics_key: UA-37412525-4
 # google_site_verification: Z-pc_HPc4XNBz8xg1fgtxO2MSIYLirZc2jWTNq0bJyM
@@ -86,7 +86,7 @@ google_analytics_key: UA-94021817-2
 # Content
 excerpt_separator: <!-- Read more -->
 
-navigation:
-  Medium: 
-  Twitter: 
-  Github: 
+# navigation:
+#   Medium: 
+#   Twitter: 
+#   Github: 
