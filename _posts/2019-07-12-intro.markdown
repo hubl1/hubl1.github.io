@@ -1,7 +1,6 @@
 ---
 layout: post
 title: intro
-image: loushi
+image: ruins
 ---
 
-整理的红楼梦诗词

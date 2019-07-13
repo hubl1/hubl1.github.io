@@ -1,6 +1,7 @@
 ---
 layout: home
-title: It's Spring!
+title: 红楼梦诗词
+image: loushi
 ---
 
 {% for post in site.posts %}
