@@ -36,10 +36,10 @@ compress_html:
 dark_theme: false
 
 # Site meta
-# title: 红楼梦诗词
+title: 红楼梦诗词
 # tagline: 'A one-page, two-column Jekyll theme.'
 # keywords: 'connor, baer, bear, designer, developer, design, code, jekyll, spring'
-description: '红楼梦诗词'
+description: '曹雪芹'
 # url: https://connor-baer.github.io
 baseurl: ''
 assets: '/assets'
