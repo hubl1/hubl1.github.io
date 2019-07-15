@@ -2,7 +2,7 @@
 layout: post
 title: 好了歌
 author: 跛足道人
-image: ruins
+image: splendid
 ---
 　　　　世人都曉神仙好，惟有功名忘不了！
 

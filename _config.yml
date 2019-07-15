@@ -8,6 +8,7 @@ plugins:
   - jekyll-gist
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Settings
 exclude:
@@ -91,3 +92,6 @@ excerpt_separator: <!-- Read more -->
 #   Medium: 
 #   Twitter: 
 #   Github: 
+#
+# paginate                     : 2
+# paginate_path                : '/page-:num/'
