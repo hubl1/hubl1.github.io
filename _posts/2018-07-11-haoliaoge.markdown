@@ -1,9 +1,10 @@
 ---
 layout: post
-title: 好了歌
+title: 好了歌 
 author: 跛足道人
 image: splendid
 ---
+
 　　　　世人都曉神仙好，惟有功名忘不了！
 
 　　　　古今將相在何方？荒冢一堆草沒了。
@@ -19,3 +20,4 @@ image: splendid
 　　　　世人都曉神仙好，只有兒孫忘不了！
 
 　　　　痴心父母古來多，孝順兒孫誰見了？
+

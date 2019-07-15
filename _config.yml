@@ -52,8 +52,6 @@ youtube: Stevmo Schwiney
 # facebook:
 #   app_id: 
 
-google_analytics_key: UA-37412525-4
-google_site_verification: Z-pc_HPc4XNBz8xg1fgtxO2MSIYLirZc2jWTNq0bJyM
 
 author:
   name: Stevmo Schiney
@@ -82,11 +80,9 @@ google_fonts:
   PT Serif: 400, 700
   Playfair Display: 400
 
-google_analytics_key: UA-94021817-2
-google_site_verification: Z-pc_HPc4XNBz8xg1fgtxO2MSIYLirZc2jWTNq0bJyM
 
 # Content
-excerpt_separator: <!-- Read more -->
+excerpt_separator: <!--break-->
 
 # navigation:
 #   Medium: 
