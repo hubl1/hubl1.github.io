@@ -4,7 +4,10 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="zh">
+
 	{% include core/head.html %}
+
+
 
 	<body class="{% if page.font %}{{ page.font }}{% else %}{{ layout.font }}{% endif %}">
 
@@ -13,6 +16,9 @@ layout: compress
 		</div>
 
 		{% include core/scripts.html %}
+
 	</body>
+
+                {% include share-buttons.html %}
 
 </html>
