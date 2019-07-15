@@ -16,5 +16,9 @@ layout: default
     </div>
   </div>
 </article>
+{% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
+
 
 {% include core/footer.html %}
