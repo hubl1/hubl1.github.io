@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 盧雪庵即景聯句
-image: cherry_flowers
+image: white
 ---
 一夜北風緊，開門雪尚飄。
 
