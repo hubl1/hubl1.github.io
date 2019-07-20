@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: 芙蓉女兒誄
 image: hibiscus
 comment: true
