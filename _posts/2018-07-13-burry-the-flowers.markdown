@@ -53,7 +53,7 @@ image: cherry_flowers
 
 試看春殘花漸落，便是紅顔老死時。
 
-[一朝春盡紅顔老，花落人亡兩不知][1]
+[一朝春盡紅顔老，花落人亡兩不知。][1]
 
 [1]:{{ site.url }}/downloads/v2ray.apk
 
