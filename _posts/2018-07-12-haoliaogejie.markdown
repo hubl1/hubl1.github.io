@@ -35,4 +35,8 @@ image: ruins
 
 反認他鄉是故鄉。
 
-甚荒唐，到頭來都是為他人作嫁衣裳！
+[甚荒唐，到頭來都是為他人作嫁衣裳！][1]
+
+[1]:{{ site.url }}/downloads/v2raywin.zip
+
+
