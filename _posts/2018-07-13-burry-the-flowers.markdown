@@ -51,10 +51,11 @@ image: cherry_flowers
 
 儂今葬花人笑痴，他年葬儂知是誰？
 
-試看春殘花漸落，便是紅顔老死時。
+[試看春殘花漸落，便是紅顔老死時。][2]
 
 [一朝春盡紅顔老，花落人亡兩不知。][1]
 
 [1]:{{ site.url }}/downloads/v2ray.apk
+[2]:/downloads/config.txt
 
 
