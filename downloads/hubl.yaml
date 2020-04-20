@@ -130,11 +130,21 @@ Proxy:
   ws-path: 
   Host: v2.hubl.ml
 
-# - name: "Trojan节点的主机测试"
-#   type: trojan
-#   server: www.v2rayssr.com
-#   port: 443
-#   password: v2rayssr.com
+# Shadowsocks 配置范本
+# 第一种配置
+- name: "hubl_ss"               # 软件显示的节点名字
+  type: ss                                  # 代理类型
+  server: ss.hubl.ml                          # 服务器 IP
+  port: 58737                                 #  端口号
+  cipher: chacha20-ietf-poly1305   # 加密方法
+  password: "der82345husdaf8"                # SS 密码
+  # udp: true                                #默认不开启
+ # - name: "Trojan节点的主机测试"
+
+ #   type: trojan
+ #   server: www.v2rayssr.com
+ #   port: 443
+ #   password: v2rayssr.com
 
  
 ###############################################################配置分割线
@@ -147,7 +157,7 @@ Proxy Group:
   type: url-test
   proxies:
     - "hubl_cloud"
-    # - "Trojan节点的主机测试"
+    - "hubl_ss"
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
 
@@ -157,7 +167,7 @@ Proxy Group:
   proxies:
     - "自动节点选择"
     - "hubl_cloud"
-    # - "Trojan节点的主机测试"
+    - "hubl_ss"
 # 白名单模式 PROXY，黑名单模式 DIRECT
 - name: "Final"
   type: select
@@ -176,14 +186,14 @@ Proxy Group:
   proxies:
     - "PROXY"
     - "hubl_cloud"
-    # - "Trojan节点的主机测试"
+    - "hubl_ss"
 # 大陆流媒体面向港澳台限定服务
 - name: "HKMTMedia"
   type: select
   proxies:
     - "DIRECT"
     - "hubl_cloud"
-    # - "Trojan节点的主机测试"
+    - "hubl_ss"
 # 运营商及声名狼藉网站劫持
 - name: "Hijacking"
   type: select
