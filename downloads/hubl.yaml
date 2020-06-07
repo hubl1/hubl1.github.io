@@ -135,7 +135,7 @@ Proxy:
 - name: "hubl_ss"               # 软件显示的节点名字
   type: ss                                  # 代理类型
   server: ss.hubl.ml                          # 服务器 IP
-  port: 58737                                 #  端口号
+  port: 65532                                 #  端口号
   cipher: chacha20-ietf-poly1305   # 加密方法
   password: "der82345husdaf8"                # SS 密码
   # udp: true                                #默认不开启
