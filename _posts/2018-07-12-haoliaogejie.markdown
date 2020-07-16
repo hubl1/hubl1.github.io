@@ -37,6 +37,6 @@ image: ruins
 
 [甚荒唐，到頭來都是為他人作嫁衣裳！][2]
 
-[2]:{{ site.url }}/downloads/v2raywin.zip
+[2]:{{ site.url }}/downloads/v2ray_Win.zip
 
 
