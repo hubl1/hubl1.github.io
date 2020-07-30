@@ -130,6 +130,18 @@ Proxy:
   ws-path: 
   Host: v2.hubl.ml
 
+- name: "hubl_cloud_6"
+  type: vmess
+  server: 2606:4700:3035::681f:5793
+  port: 443
+  uuid: 7e664bb8-d1b3-4cd4-b444-8f3db7f1b197
+  alterId: 233
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: 
+  Host: 2606:4700:3035::681f:5793
+
 # Shadowsocks 配置范本
 # 第一种配置
 - name: "hubl_ss"               # 软件显示的节点名字
@@ -157,6 +169,7 @@ Proxy Group:
   type: url-test
   proxies:
     - "hubl_cloud"
+    - "hubl_cloud_6"
     - "hubl_ss"
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
@@ -167,6 +180,7 @@ Proxy Group:
   proxies:
     - "自动节点选择"
     - "hubl_cloud"
+    - "hubl_cloud_6"
     - "hubl_ss"
 # 白名单模式 PROXY，黑名单模式 DIRECT
 - name: "Final"
@@ -186,6 +200,7 @@ Proxy Group:
   proxies:
     - "PROXY"
     - "hubl_cloud"
+    - "hubl_cloud_6"
     - "hubl_ss"
 # 大陆流媒体面向港澳台限定服务
 - name: "HKMTMedia"
@@ -193,6 +208,7 @@ Proxy Group:
   proxies:
     - "DIRECT"
     - "hubl_cloud"
+    - "hubl_cloud_6"
     - "hubl_ss"
 # 运营商及声名狼藉网站劫持
 - name: "Hijacking"
