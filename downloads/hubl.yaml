@@ -668,7 +668,8 @@ Rule:
 # > bilibili
 - DOMAIN-SUFFIX,bilibili.com,HKMTMedia
 - DOMAIN,upos-hz-mirrorakam.akamaized.net,HKMTMedia
-
+  #Wenzhao
+- DOMAIN-SUFFIX,wenzhao.ca,PROXY
 # (DNS Cache Pollution Protection)
 # > Google
 - DOMAIN-SUFFIX,ampproject.org,PROXY
