@@ -530,6 +530,8 @@ rules:
 - DOMAIN-SUFFIX,whatsapp.com,PROXY
 - DOMAIN-SUFFIX,whatsapp.net,PROXY
 - DOMAIN-KEYWORD,facebook,PROXY
+    # > Wenzhao
+- DOMAIN-SUFFIX,wenzhao.ca,PROXY
     # > Twitter
 - DOMAIN-SUFFIX,pscp.tv,PROXY
 - DOMAIN-SUFFIX,periscope.tv,PROXY
