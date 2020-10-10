@@ -4,6 +4,7 @@ redir-port: 7892
 allow-lan: false
 mode: Rule
 log-level: info
+ipv6: true
 external-controller: '0.0.0.0:9090'
 secret: ''
 cfw-latency-url: 'http://cp.cloudflare.com/generate_204'
