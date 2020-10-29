@@ -56,15 +56,15 @@ proxy-groups:
   proxies:
       - "URLTest 自动选择"
       - "Fallback 故障转移"
-      - "hubl_ss"
       - "hubl_cloud"
+      - "hubl_ss"
       # - "hubl_cloud_6"
 
 - name: "URLTest 自动选择"
   type: url-test
   proxies:
-      - "hubl_ss"
       - "hubl_cloud"
+      - "hubl_ss"
       # - "hubl_cloud_6"
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
@@ -72,8 +72,8 @@ proxy-groups:
 - name: "Fallback 故障转移"
   type: fallback
   proxies:
-      - "hubl_ss"
       - "hubl_cloud"
+      # - "hubl_ss"
       # - "hubl_cloud_6"
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
@@ -91,8 +91,8 @@ proxy-groups:
   type: select
   proxies:
       - "DIRECT"
-      - "hubl_ss"
       - "hubl_cloud"
+      - "hubl_ss"
       # - "hubl_cloud_6"
 
 # Apple 服务代理
@@ -107,8 +107,8 @@ proxy-groups:
   proxies:
       - "PROXY"
       - "DIRECT"
-      - "hubl_ss"
       - "hubl_cloud"
+      - "hubl_ss"
       # - "hubl_cloud_6"
 
 # 大陆流媒体面向港澳台限定服务
@@ -117,8 +117,8 @@ proxy-groups:
   proxies:
       - "DIRECT"
       - "PROXY"
-      - "hubl_ss"
       - "hubl_cloud"
+      - "hubl_ss"
       # - "hubl_cloud_6"
 
 - name: "Ads"
@@ -534,6 +534,7 @@ rules:
 - DOMAIN-KEYWORD,facebook,PROXY
     # > Wenzhao
 - DOMAIN-SUFFIX,wenzhao.ca,PROXY
+- DOMAIN-SUFFIX,ingress.com,PROXY
     # > Twitter
 - DOMAIN-SUFFIX,pscp.tv,PROXY
 - DOMAIN-SUFFIX,periscope.tv,PROXY
