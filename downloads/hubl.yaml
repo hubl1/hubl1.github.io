@@ -41,7 +41,8 @@ proxies:
   type: ss                                  # 代理类型
   server: ss.hubl.ml                          # 服务器 IP
   port: 65532                                 #  端口号
-  cipher: chacha20-ietf-poly1305   # 加密方法
+    #  cipher: chacha20-ietf-poly1305   # 加密方法
+  cipher: aes-128-gcm   # 加密方法
   password: "der82345husdaf8"                # SS 密码
     # tls: true # wss
     # skip-cert-verify: true
