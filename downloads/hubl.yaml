@@ -22,28 +22,15 @@ proxies:
   ws-path: 
   Host: v2.hubl.ml
 
-# - name: "hubl_cloud_6"
-#   type: vmess
-#   server: v2.hubl.ml
-#   port: 443
-#   uuid: 7e664bb8-d1b3-4cd4-b444-8f3db7f1b197
-#   alterId: 233
-#   cipher: auto
-#   tls: true
-#   network: ws
-#   ws-path: 
-#   ipv6: true
-#   Host: v2.hubl.ml
-
 # Shadowsocks 配置范本
 # 第一种配置
 - name: "hubl_ss"               # 软件显示的节点名字
   type: ss                                  # 代理类型
-  server: ss.hubl.ml                          # 服务器 IP
-  port: 65532                                 #  端口号
+  server: charm.hubl.ml                          # 服务器 IP
+  port: 63345                                 #  端口号
     #  cipher: chacha20-ietf-poly1305   # 加密方法
   cipher: aes-128-gcm   # 加密方法
-  password: "der82345husdaf8"                # SS 密码
+  password: "zky2198828"                # SS 密码
 
 - name: "hubl_ss6"               # 软件显示的节点名字
   type: ss                                  # 代理类型
