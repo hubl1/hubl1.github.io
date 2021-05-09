@@ -32,13 +32,13 @@ proxies:
   cipher: aes-128-gcm   # 加密方法
   password: "zky2198828"                # SS 密码
 
-- name: "hubl_ss6"               # 软件显示的节点名字
-  type: ss                                  # 代理类型
-  server: ss6.hubl.ml                          # 服务器 IP
-  port: 65532                                 #  端口号
-    #  cipher: chacha20-ietf-poly1305   # 加密方法
-  cipher: aes-128-gcm   # 加密方法
-  password: "der82345husdaf8"                # SS 密码
+# - name: "hubl_ss6"               # 软件显示的节点名字
+#   type: ss                                  # 代理类型
+#   server: ss6.hubl.ml                          # 服务器 IP
+#   port: 65532                                 #  端口号
+#     #  cipher: chacha20-ietf-poly1305   # 加密方法
+#   cipher: aes-128-gcm   # 加密方法
+#   password: "der82345husdaf8"                # SS 密码
     # tls: true # wss
     # skip-cert-verify: true
     # host: bing.com
@@ -53,7 +53,6 @@ proxy-groups:
       - "URLTest 自动选择"
       - "Fallback 故障转移"
       - "hubl_cloud"
-      - "hubl_ss6"
       - "hubl_ss"
       # - "hubl_cloud_6"
 
@@ -61,7 +60,6 @@ proxy-groups:
   type: url-test
   proxies:
       - "hubl_cloud"
-      - "hubl_ss6"
       - "hubl_ss"
       # - "hubl_cloud_6"
   url: 'http://www.gstatic.com/generate_204'
@@ -71,7 +69,6 @@ proxy-groups:
   type: fallback
   proxies:
       - "hubl_cloud"
-      - "hubl_ss6"
       # - "hubl_ss"
       # - "hubl_cloud_6"
   url: 'http://www.gstatic.com/generate_204'
@@ -91,7 +88,6 @@ proxy-groups:
   proxies:
       - "DIRECT"
       - "hubl_cloud"
-      - "hubl_ss6"
       - "hubl_ss"
       # - "hubl_cloud_6"
 
@@ -108,7 +104,6 @@ proxy-groups:
       - "PROXY"
       - "DIRECT"
       - "hubl_cloud"
-      - "hubl_ss6"
       - "hubl_ss"
       # - "hubl_cloud_6"
 
@@ -119,7 +114,6 @@ proxy-groups:
       - "DIRECT"
       - "PROXY"
       - "hubl_cloud"
-      - "hubl_ss6"
       - "hubl_ss"
       # - "hubl_cloud_6"
 
