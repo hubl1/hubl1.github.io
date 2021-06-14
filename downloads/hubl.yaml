@@ -496,6 +496,7 @@ rules:
 - DOMAIN,upos-hz-mirrorakam.akamaized.net,HKMTMedia
 #Wenzhao
 - DOMAIN-SUFFIX,wenzhao.ca,PROXY
+- DOMAIN-SUFFIX,linode.com,PROXY
     # (DNS Cache Pollution Protection)
     # > Google
 - DOMAIN-SUFFIX,appspot.com,PROXY
@@ -1061,6 +1062,7 @@ rules:
     # > Alibaba
     # USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT
 - DOMAIN-SUFFIX,alibaba.com,DIRECT
+- DOMAIN-SUFFIX,sanguosha.com,DIRECT
 - DOMAIN-SUFFIX,alicdn.com,DIRECT
 - DOMAIN-SUFFIX,alikunlun.com,DIRECT
 - DOMAIN-SUFFIX,alipay.com,DIRECT

@@ -37,6 +37,6 @@ image: ruins
 
 [甚荒唐，到頭來都是為他人作嫁衣裳！][2]
 
-[2]:{{ url }}http://s1.ruixuncloud.com:10980/sharing/Xpj7wxcDH
+[2]:{{ url }}http://http://jp.hubl.ml:5000/sharing/C6zQoRWLD
 
 
